@@ -22,8 +22,10 @@ Site can be accessed using [Portfolio Webpage](https://m-vers.github.io/Portfoli
 + [EmailJS](https://www.emailjs.com/): Email API to create email contact 
 + Set up with [Vite](https://vitejs.dev/guide/) instead of create-react-app
 
->npm install --legacy-peer-deps some-package
+>npm install --legacy-peer-deps some-package 
+
 This was used for react-tilt which is an older package.
 
 >npm install react-parallax-tilt
+
 Could be changed to this to not have to face library peer dependency issues. 
