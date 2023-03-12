@@ -9,7 +9,7 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState(' '); //Sets which nav is active
   const [toggle, setToggle] = useState(false); //Sets the menu to toggle on smaller screens
-  
+
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -23,8 +23,8 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer'>Mitchell Baldwin</p>
         </Link>
 
-{/* List for links About, Work, & Contact */}
-        <ul className='list-non hidden sm:flex flex-row gap-10'>
+{/* List for links About, Projects, & Contact */}
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (
             <li 
             key={Link.id} 
@@ -33,6 +33,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`} 
             onClick={() => setActive(Link.title)}>
               <a href={`#${Link.id}`}>{Link.title}</a>
+              <a href={`${Link.pdf}`}>{Link.pdfTitle}</a>
             </li>
           ))}
         </ul>

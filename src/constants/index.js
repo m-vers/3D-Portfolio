@@ -12,6 +12,8 @@ import {
   threejs,
 } from "../assets";
 
+import Resume from '../assets/Mitchell-Baldwin-Resume.pdf'
+
 const navLinks = [
   {
     id: "about",
@@ -21,13 +23,13 @@ const navLinks = [
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "resume",
-    title: "Resume",
-  },
-  {
+    {
     id: "contact",
     title: "Contact",
+  },
+  {
+    pdf: Resume,
+    pdfTitle: "Resume",
   },
 ];
 
