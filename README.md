@@ -10,7 +10,7 @@ On the portfolio page, you can find more information about me, including my educ
 + Contact form
 
 ## **Live Demo**
-Site can be accessed using [Portfolio Webpage](https://m-vers.github.io/Portfolio-Mixed-Messages/)
+Site can be accessed using [Portfolio Webpage]()
 
 ## **Screenshot**
 
