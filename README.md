@@ -10,7 +10,7 @@ On the portfolio page, you can find more information about me, including my educ
 + Contact form
 
 ## **Live Demo**
-Site can be accessed using [Portfolio Webpage](https://m-vers.github.io/Portfolio-Mixed-Messages/)
+Site can be accessed using [Portfolio Webpage]()
 
 ## **Screenshot**
 
@@ -20,7 +20,7 @@ Site can be accessed using [Portfolio Webpage](https://m-vers.github.io/Portfoli
 + [Framer Motion](https://www.framer.com/motion/): Library for animation in React
 + [Tailwindcss](https://tailwindcss.com/docs/installation): CSS styling framework
 + [EmailJS](https://www.emailjs.com/): Email API to create email contact 
-+ Set up with [Vite](https://vitejs.dev/guide/) instead of create-react-app
++ Set up with [Vite](https://vitejs.dev/guide/) instead of create-react-app. Use npm run dev instead of npm start
 
 >npm install --legacy-peer-deps some-package 
 
