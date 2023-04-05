@@ -33,7 +33,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`} 
             onClick={() => setActive(Link.title)}>
               <a href={`#${Link.id}`}>{Link.title}</a>
-              <a href={`${Link.pdf}`}>{Link.pdfTitle}</a>
+              <a onClick={() => window.open(Link.pdf, '_blank')}>{Link.pdfTitle}</a>
             </li>
           ))}
         </ul>

@@ -13,9 +13,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import artportfolio from "./artportfolio.png";
+import artblog from "./artblog.png";
+import exercise from "./exercise.png";
 
 export {
   logo,
@@ -31,7 +31,7 @@ export {
   redux,
   tailwind,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  artportfolio,
+  artblog,
+  exercise,
 };
