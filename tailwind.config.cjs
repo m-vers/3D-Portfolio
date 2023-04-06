@@ -17,7 +17,7 @@ module.exports = {
       },
       screens: {
         xs: "450px",
-        'xsmall': { 'raw': '(max-width: 450px)' },
+        'xsmall': { 'raw': '(max-width: 600px)' },
       },
     },
   },
