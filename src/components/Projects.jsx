@@ -8,7 +8,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, site_link}) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -18,7 +18,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
         speed: 450
       }}
       className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px] cursor-pointer" 
+          onClick={() => window.open
+            (site_link, '_blank')}>
           <img 
           src={image}
           alt={name}
@@ -65,8 +67,8 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          These are some of the projects I have built that showcase my skills. Each project contains a brief description with links to repositories and live demos.  
+        className='mt-3 text-white-100 text-[17px] max-w-3xl leading-[30px]'>
+          These are some of the projects I have built that showcase my skills. Each project contains a brief description with links to repositories, via the Github icon, and live demos.  
         </motion.p>
       </div>
 

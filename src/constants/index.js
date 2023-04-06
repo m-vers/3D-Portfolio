@@ -81,6 +81,7 @@ const projects = [
     ],
     image: artportfolio,
     source_code_link: "https://github.com/m-vers/art-portfolio",
+    site_link: "https://sarabaldwin-artportfolio.vercel.app/",
   },
   {
     name: "Art Blog",
@@ -102,6 +103,7 @@ const projects = [
     ],
     image: artblog,
     source_code_link: "https://github.com/m-vers/art-blog",
+    site_link: "https://sarabaldwinblog.vercel.app/",
   },
   {
     name: "Exercise Program Builder",
@@ -123,6 +125,7 @@ const projects = [
     ],
     image: exercise,
     source_code_link: "https://github.com/m-vers/Excercise-Program-Builder",
+    site_link: "https://excercise-program-builder.vercel.app/",
   },
 ];
 

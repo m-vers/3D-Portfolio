@@ -43,12 +43,16 @@
   );
 }
 
+.hero {
+  height: 35rem;
+}
+
 .red-gradient {
-  background: #ED1703;
-  background: linear-gradient(-90deg, #ED1703 0%, rgba(60, 51, 80, 0) 100%);
+  background: #fa3879;
+  background: linear-gradient(-90deg, #fa3879 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ED1703 0%,
+    #fa3879 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
