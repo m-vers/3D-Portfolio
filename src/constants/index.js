@@ -108,7 +108,7 @@ const projects = [
   {
     name: "Exercise Program Builder",
     description:
-      "A comprehensive exercise platform that allows users to search for exercises by name and recieve information. It also allows for a pdf generated program crafted by the user.",
+      "Group project creating a comprehensive exercise platform that allows users to search for exercises and recieve information.",
     tags: [
       {
         name: "react",
